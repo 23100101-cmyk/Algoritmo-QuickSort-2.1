@@ -22,6 +22,12 @@ ordenado = quicksort(array)
 print("Array original:", array)
 print("Array ordenado:", ordenado)
 
+# Segundo ejemplo
+#array = ["pera", "manzana", "uva", "banana", "kiwi"]
+#ordenado = quicksort(array)
+
+#print("Array original:", array)
+#print("Array ordenado:", ordenado)
 
 
 
