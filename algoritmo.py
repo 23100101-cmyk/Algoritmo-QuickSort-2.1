@@ -10,3 +10,21 @@ def quicksort(arr):
     menores = [x for x in arr if x < pivote]
     iguales = [x for x in arr if x == pivote]
     mayores = [x for x in arr if x > pivote]
+    
+    # Llamadas recursivas
+    return quicksort(menores) + iguales + quicksort(mayores)
+
+
+# Ejemplo de uso
+array = [10, 7, 8, 9, 1, 5]
+ordenado = quicksort(array)
+
+print("Array original:", array)
+print("Array ordenado:", ordenado)
+
+
+
+
+
+
+
