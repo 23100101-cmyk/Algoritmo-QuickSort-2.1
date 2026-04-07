@@ -15,7 +15,7 @@ def quicksort(arr):
     return quicksort(menores) + iguales + quicksort(mayores)
 
 
-# Ejemplo de uso
+# Ejemplo para usar
 array = [10, 7, 8, 9, 1, 5]
 ordenado = quicksort(array)
 
